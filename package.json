@@ -1,5 +1,5 @@
 {
-  "name": "zpxoci-mono-repo",
+  "name": "@zpxoci/zpxoci-mono-repo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
