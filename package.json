@@ -1,6 +1,6 @@
 {
   "name": "@zpxoci/my-test-package",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "packageManager": "pnpm@8.6.3",
