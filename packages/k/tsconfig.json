@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "rootDir": ".",
+    "outDir": "./dist/es",
+    "typeRoots": ["../../node_modules/@types", "./node_modules/@types"],
+    "target": "es6",
+    "baseUrl": ".",
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "noImplicitAny": true,
+    "declaration": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "allowJs": false,
+    "strict": true,
+    "importHelpers": true,
+    "useDefineForClassFields": true,
+    "composite": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "incremental": true,
+  },
+  "include": [
+    "**/*.tsx",
+    "**/*.ts",
+    "**/*.json"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+  ]
+}

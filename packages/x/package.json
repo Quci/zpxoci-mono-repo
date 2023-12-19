@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ramda": "^0.29.1"
+    "ramda": "^0.29.1",
+    "@zpxoci/k": "workspace:*"
+
   }
 }

@@ -1,12 +1,21 @@
 {
-  "name": "k",
+  "name": "@zpxoci/k",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:types": "tsc --emitDeclarationOnly"
   },
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.ts",
+    "dist/**/*.css"
+  ],
+  "module": "dist/es/index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
